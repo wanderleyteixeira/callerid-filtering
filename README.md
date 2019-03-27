@@ -39,6 +39,7 @@ python3.7 callerFilter.py NPANXXXXXXX "all" "hangup" "Spam (API)"
 
 ## TO DO
 
-Automate using AppleScript + Mail to trigger the script.
+* Automate using AppleScript + Mail to trigger the script.
+* Or integrate with Apple's Shortcut app
 
 
