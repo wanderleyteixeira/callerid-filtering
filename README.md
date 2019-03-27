@@ -1,7 +1,7 @@
 ## Description ##
-Python script to blacklist a Caller ID to [VoIP.ms](https://voip.ms). This script uses the [voipms](https://pypi.org/project/voipms/) to wrap around the VoIP.ms RESTful API. Has an easily-usable command line to send a Caller ID to VoIP.ms.
+Python script to blacklist a Caller ID to [VoIP.ms](https://voip.ms). This script uses the [voipms](https://pypi.org/project/voipms/) to wrap around the VoIP.ms REST API. Has an easily-usable command line to send a Caller ID to VoIP.ms filtering list.
 
-This is a script that adds a Caller ID filter to a VoIP.ms account. When I receive a telemarketer or unwanted call to one of my phone lines, I want to make sure that never happens again. This script allows me to quickly add a number that next time the caller tried to reach me, it will be hung up automatically. Also, you could set different actions such as busy tone, no service message, or even a message that the number is disconnected.
+When I receive a telemarketer or unwanted call to one of my phone lines, I want to be able to quickly add that number to a list of spam. Next time the caller tries to reach me, it will be hung up automatically. Or, you could set different actions such as busy tone, no service message, or even a message that the number is disconnected.
 
 ## Requirements
 
