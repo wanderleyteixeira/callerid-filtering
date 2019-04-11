@@ -20,10 +20,6 @@ def addFilter(voip, callerid, did, action, note):
         routing = u"ivr:" + action
     print(voip.dids.set.caller_id_filtering(callerid, did, routing, note=note))
 
-def getAllFilters(voip):
-    raw_filters = voip.dids.get.caller_id_filtering(filtering=None)
-    return raw_filters[u'filtering']
-
 def checkISBN(callerid):
     if len(callerid) == 10 and callerid.isdigit():
         print("Incoming number for filtering", callerid)
